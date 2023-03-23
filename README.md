@@ -15,13 +15,13 @@ A web app built with Astro.build and React that provides suggestions for the Wor
 Clone this repository:
 
 ```
-git clone https://github.com/username/wordle-solver.git
+git clone https://github.com/ArcherHume/wordleSolver.git
 ```
 
 Navigate to the project directory and install dependencies:
 
 ```
-cd wordle-solver
+cd wordleSolver
 npm install
 ```
 
