@@ -203,7 +203,7 @@ const Wordle = () => {
               </button>
               <button
                 className="mt-4 w-fit h-min bg-gray-700 text-gray-400 text-xl p-1 rounded-lg"
-                onClick={() => { setWordList([...wordList.slice(0, rows-1), Array(5).fill({ letter: '', state: 'notInWord' }), ...wordList.slice(rows)]); setRows(rows - 1) }}
+                onClick={() => { setWordList([...wordList.slice(0, rows - 1), Array(5).fill({ letter: '', state: 'notInWord' }), ...wordList.slice(rows)]); rows > 1 ? setRows(rows - 1) : null; }}
               >
                 <Minus />
               </button>
